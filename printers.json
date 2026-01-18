@@ -11,7 +11,7 @@
       "amort": 0.5,
       "markup": 3
     },
-    "Elegoo Centauri Carbon 2 Combo": {
+    "CC2": {
       "prices": {
         "PLA": 10,
         "PETG": 10,
@@ -23,5 +23,5 @@
       "markup": 3
     }
   },
-  "activePrinter": "Elegoo Centauri Carbon 2 Combo"
+  "activePrinter": "CC2"
 }

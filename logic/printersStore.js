@@ -1,10 +1,14 @@
+const { app } = require('electron')
 const fs = require('fs')
 const path = require('path')
 
-const STORE_PATH = path.join(__dirname, '../printers.json')
+const STORE_PATH = path.join(
+  app.getPath('userData'),
+  'printers.json'
+)
 
-// ---------- load ----------
-function loadStore() {
+// ---------- ensure ----------
+function ensureStore() {
   if (!fs.existsSync(STORE_PATH)) {
     const initial = {
       activePrinter: 'Default Printer',
@@ -20,17 +24,19 @@ function loadStore() {
     }
 
     fs.writeFileSync(STORE_PATH, JSON.stringify(initial, null, 2))
-    return initial
   }
+}
 
+// ---------- load ----------
+function loadStore() {
+  ensureStore()
   return JSON.parse(fs.readFileSync(STORE_PATH, 'utf8'))
 }
 
 // ---------- save ----------
 function saveStore(store) {
-  console.log('STORE PATH =', STORE_PATH)
+  ensureStore()
   fs.writeFileSync(STORE_PATH, JSON.stringify(store, null, 2))
-  console.log('STORE WRITTEN')
 }
 
 // ---------- printers ----------
@@ -88,7 +94,6 @@ function getPrintersList() {
   return Object.keys(store.printers)
 }
 
-// ---------- exports ----------
 module.exports = {
   loadStore,
   saveStore,
