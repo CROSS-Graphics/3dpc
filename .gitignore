@@ -1,9 +1,16 @@
+# Node
 node_modules/
+
+# Electron build output
 dist/
-build/
+win-unpacked/
 out/
-*.exe
-*.msi
-*.log
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS
 .DS_Store
-printers.json
+Thumbs.db
