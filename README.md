@@ -1,7 +1,6 @@
 <img width="1036" height="808" alt="dark" src="https://github.com/user-attachments/assets/74c5554c-c173-4370-ae17-b7bf9908fa5d" />
-<img width="1036" height="808" alt="light" src="https://github.com/user-attachments/assets/e5ffada5-763d-4ede-9dd3-ffff5c6cee4d" />
 
-- EN
+## EN
 
 **3DPC (3D Print Calculator) is a desktop application for accurate 3D printing cost calculation.**
 
@@ -46,8 +45,8 @@ It is designed for makers, studios, and small manufacturing setups that need a f
 **⚠️ Note:**
 This application is a pilot version. Bugs and calculation inaccuracies may occur.
 Use the results as an estimated cost reference.
-______________________________________
-- RU
+
+## RU
 
 **3DPC (3D Print Calculator) — настольное приложение для точного расчёта стоимости 3D-печати.**
 
@@ -108,3 +107,17 @@ Screen resolution: 1280×720 or higher
 Software: No additional software required (all dependencies are included in the installer)
 
 **Full Changelog**: https://github.com/CROSS-Graphics/3dpc/commits/v1.0.0
+
+## 📸 Screenshots
+
+### Main window (Dark theme)
+![Main Dark](screenshots/main-dark.png)
+
+### Main window (Light theme)
+![Main Light](screenshots/main-light.png)
+
+### Printer settings
+![Settings](screenshots/settings.png)
+
+### About
+![About](screenshots/about.png)
