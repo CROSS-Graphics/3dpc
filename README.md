@@ -107,7 +107,7 @@ ______________________________________
 
 Software: No additional software required (all dependencies are included in the installer)
 
-**Full Changelog**: https://github.com/demshin/3dpc/commits/main
+**Full Changelog**: https://github.com/CROSS-Graphics/3dpc/commits/main
 
 ## 📸 Screenshots
 

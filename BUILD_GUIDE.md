@@ -9,7 +9,7 @@
 
 ```bash
 # Clone the repository
-git clone https://github.com/demshin/3dpc.git
+git clone https://github.com/CROSS-Graphics/3dpc.git
 cd 3dpc
 
 # Install dependencies

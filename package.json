@@ -4,6 +4,14 @@
   "description": "3DPC (3D Print Calculator)",
   "main": "main.js",
   "author": "CROSS Graphics",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CROSS-Graphics/3dpc.git"
+  },
+  "bugs": {
+    "url": "https://github.com/CROSS-Graphics/3dpc/issues"
+  },
+  "homepage": "https://github.com/CROSS-Graphics/3dpc#readme",
   "scripts": {
     "start": "electron .",
     "build": "electron-builder",
