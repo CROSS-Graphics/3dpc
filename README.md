@@ -1,8 +1,12 @@
-<img width="1036" height="808" alt="dark" src="https://github.com/user-attachments/assets/74c5554c-c173-4370-ae17-b7bf9908fa5d" />
+<p align="center">
+  <img width="120" alt="LOGO" src="https://raw.githubusercontent.com/CROSS-Graphics/3dpc/main/assets/logo.png">
+  <br>
+  <strong>3DPC - 3D Print Calculator</strong>
+</p>
 
 ## EN
 
-**3DPC (3D Print Calculator) is a desktop application for accurate 3D printing cost calculation.**
+**3DPC (3D Print Calculator) is a FREE | OPEN-Source desktop application for accurate 3D printing cost calculation.**
 
 It is designed for makers, studios, and small manufacturing setups that need a fast and transparent way to calculate production costs and final pricing.
 
@@ -44,7 +48,7 @@ It is designed for makers, studios, and small manufacturing setups that need a f
 
 ## RU
 
-**3DPC (3D Print Calculator) — настольное приложение для точного расчёта стоимости 3D-печати.**
+**3DPC (3D Print Calculator) — это БЕСПЛАТНОЕ настольное приложение для точного расчёта стоимости 3D-печати с открытым исходным кодом.**
 
 Программа предназначена для мастеров, студий и небольших производств, которым важно быстро и прозрачно считать себестоимость и финальную цену печати.
 
